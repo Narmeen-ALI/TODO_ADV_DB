@@ -216,11 +216,4 @@ Notifications will appear even when the app is in the background.
 
 This project is open source and available for educational purposes.
 
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## 📧 Support
-
-For issues and questions, please open an issue on the repository.
 
