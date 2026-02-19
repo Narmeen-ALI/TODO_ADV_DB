@@ -1,0 +1,151 @@
+.profile-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding-bottom: 40px;
+}
+
+.profile-header {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn,
+.logout-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.back-btn {
+  background: #667eea;
+  color: white;
+}
+
+.back-btn:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  background: #f44336;
+  color: white;
+}
+
+.logout-btn:hover {
+  background: #d32f2f;
+  transform: translateY(-2px);
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.profile-avatar-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #667eea;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+  margin-bottom: 15px;
+}
+
+.presence-indicator {
+  margin-top: 10px;
+}
+
+.presence-indicator .online {
+  color: #4caf50;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.presence-indicator .offline {
+  color: #999;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.profile-info h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.email {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.profile-details {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-item:last-child {
+  border-bottom: none;
+}
+
+.detail-item .label {
+  color: #666;
+  font-weight: 500;
+}
+
+.detail-item .value {
+  color: #333;
+  font-weight: 400;
+}
+
+.profile-stats {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+}
+
+.profile-stats h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.profile-stats p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
